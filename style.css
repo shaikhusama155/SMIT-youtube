@@ -168,3 +168,53 @@ body{
     overflow: auto;
 
 }
+.right-side{
+    width: 100%;
+    overflow: auto;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(113, 119, 144 /25%);
+    height: 58px;
+    flex-shrink: 0;
+}
+.main-header .header-menu a{
+    padding: 8px 20px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.main-header-link{
+    color: #000;
+    border-radius: 12px;
+    background-color: rgb(235, 228, 228);
+    margin-right: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+    
+}
+.main-header-link:hover{
+    background-color: rgb(212, 206, 206);
+    color: #000;
+}
+.focous{
+    background-color: #000;
+    color: white;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 40px;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(16, 18, 29 /40%);
+}
+.apps-card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
