@@ -218,3 +218,10 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+.vid-info{
+    width: 100%;
+}
+.marg{
+    margin-right: 12px;
+    margin-left: 0px;
+}
