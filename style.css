@@ -225,3 +225,17 @@ body{
     margin-right: 12px;
     margin-left: 0px;
 }
+.text{
+    color: #000;
+}
+span{
+    color: #888;
+}
+.col-4 iframe{
+    margin: 0px;
+    border-radius: 12px;
+
+}
+.card{
+    margin-top: 15px;
+}
