@@ -60,7 +60,7 @@ body{
     width: 100%;
     max-width: 800px;
     padding-left: 16px;
-    border-radius: 5px;
+    border-radius: 12px;
 }
 .search-bar input{
     width: 100%;
@@ -71,6 +71,7 @@ body{
     font-weight: 500;
     padding: 0 20px 0 20px;
     color: #000;
+    border-radius: 25px;
 }
 .search-bar i.fa-magnifying-glass{
     position: absolute;
@@ -93,7 +94,7 @@ body{
     padding: 0 15px 0 40px;
 }
 .header-profile i{
-    font-size: 15px;
+    font-size: 20px;
     color: #000;
     margin-right: 22px;
 }
